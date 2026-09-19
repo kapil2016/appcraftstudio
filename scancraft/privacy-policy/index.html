@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScanCraft Privacy Policy</title>
+<meta name="description" content="How the ScanCraft Android app by appcraftstudio handles your data.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📄</text></svg>">
+<style>
+  :root {
+    --bg: #fbfaf7; --text: #1d1d1f; --muted: #5c5c63; --line: #e3e0d8; --accent: #1f5fbf; --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16171a; --text: #ececef; --muted: #a3a3ab; --line: #2c2e33; --accent: #7fb0ff; --card: #1d1f23; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 72px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 24px 0 4px; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin-bottom: 24px; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+  .summary ul { margin: 8px 0 0; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 16px; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>ScanCraft Privacy Policy</h1>
+<p class="meta">ScanCraft for Android (<code>com.craftscans</code>) · by appcraftstudio · Effective 19 September 2026</p>
+
+<div class="summary">
+  <strong>In short</strong>
+  <ul>
+    <li>Your scans and documents stay on your phone. There is no account and no sign-in.</li>
+    <li>Only when you use <strong>Ultra scan</strong> is a page image sent off the phone, to be read by Google’s Gemini AI. We do not keep the image or its text.</li>
+    <li>To keep your Ultra scan page balance, we store an anonymous install ID with your balance and purchase records.</li>
+    <li>No ads, no analytics, no tracking, and we never sell your data.</li>
+  </ul>
+</div>
+
+<h2>Who we are</h2>
+<p>ScanCraft is made by appcraftstudio (“we”, “us”). If you have a question about this policy or your data, email <a href="mailto:craftconsole88@gmail.com">craftconsole88@gmail.com</a>.</p>
+
+<h2>What stays on your phone</h2>
+<p>Everything you scan, import, edit or export is stored in ScanCraft’s private storage on your phone. This includes page photos, documents, PDFs you create, and your settings. We have no copy of any of it. Normal scanning, cropping, filters and editing all happen on the phone.</p>
+<ul>
+  <li><strong>Camera.</strong> ScanCraft does not ask for camera permission. When you scan, it opens your phone’s own camera app, which hands the photo back to ScanCraft.</li>
+  <li><strong>Photos.</strong> ScanCraft asks to read your images only so you can import pictures you choose.</li>
+  <li><strong>Sharing.</strong> A document leaves the app only when you share or export it yourself, through Android’s share sheet, to the place you pick.</li>
+</ul>
+<p>Uninstalling ScanCraft deletes everything it stored on your phone.</p>
+
+<h2>What leaves your phone, and why</h2>
+
+<h3>1. Ultra scan pages</h3>
+<p>Ultra scan turns a scanned page into editable text. When you start it, each page image is sent over an encrypted (HTTPS) connection to the ScanCraft server. The server passes it to Google’s Gemini API, which reads the text and layout. The result comes back to your phone, where the editable page is built.</p>
+<p>The ScanCraft server does not store page images or their text; it only passes them through. Google processes the image to provide this service under the <a href="https://ai.google.dev/gemini-api/terms">Gemini API Terms of Service</a>. Pages you don’t send through Ultra scan never leave your phone.</p>
+
+<h3>2. Your Ultra scan balance</h3>
+<p>Ultra scan is paid in page credits: every install gets a few free pages, and you can buy more. So that your balance survives restarts and reinstalls, and so free pages can’t be claimed over and over, the app creates an <strong>install ID</strong>. It is a one-way hash (SHA-256) of the device identifier Android provides to this app. It cannot be turned back into that identifier. It is not linked to your name, email, phone number or Google account.</p>
+<p>Our server stores, against that install ID:</p>
+<ul>
+  <li>your free and bought page balance;</li>
+  <li>a record of credit activity: pages read, pages bought, refunds, with dates and the AI model used;</li>
+  <li>your Google Play purchase records: the purchase token, order ID, product, number of credits, and whether a purchase was later refunded.</li>
+</ul>
+
+<h3>3. Purchases</h3>
+<p>Purchases are made and paid for through Google Play. We never see your card, UPI or other payment details, your name or your email. Google Play gives us a purchase token and order ID. Our server checks these with Google (the Google Play Developer API) before adding credits. It also checks with Google daily for refunded purchases, so their credits can be removed. Google’s handling of your payment is covered by the <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments Privacy Notice</a>.</p>
+
+<h3>4. Fonts</h3>
+<p>When you pick a font in the editor that isn’t already on your phone, ScanCraft downloads it once from Google Fonts (<code>fonts.gstatic.com</code>). Only the font file is requested; no document content is sent. As with any web request, Google receives your IP address.</p>
+
+<h2>Who we share data with</h2>
+<p>We do not sell, rent or trade your data, and we do not use it for advertising. Data is handled only by the service providers that make the features work:</p>
+<div class="table-wrap">
+<table>
+  <tr><th>Provider</th><th>What it handles</th><th>Why</th></tr>
+  <tr><td>Google (Gemini API)</td><td>Ultra scan page images</td><td>Reading the text and layout</td></tr>
+  <tr><td>Cloudflare</td><td>Requests to the ScanCraft server, including your IP address; the stored install ID, balance and purchase records</td><td>Hosting the server and its database</td></tr>
+  <tr><td>Google Play</td><td>Purchases</td><td>Payments, purchase checks, refunds</td></tr>
+  <tr><td>Google Fonts</td><td>Font downloads</td><td>Fonts for the editor</td></tr>
+</table>
+</div>
+<p>We may also disclose information if the law requires it.</p>
+
+<h2>How long we keep it</h2>
+<p>Ultra scan page images and their text are not stored on our server. Your install ID, balance and credit activity are kept while you may still use your credits, which never expire, or until you ask us to delete them. Purchase records may be kept longer where tax or accounting law requires it.</p>
+
+<h2>Your choices and rights</h2>
+<ul>
+  <li><strong>Don’t use Ultra scan.</strong> Everything else in ScanCraft works without sending anything off your phone.</li>
+  <li><strong>See or delete your data.</strong> Email <a href="mailto:craftconsole88@gmail.com">craftconsole88@gmail.com</a> with the install ID shown on the app’s <em>Ultra scan credits</em> screen. We will tell you what we hold or delete it within 30 days. Deleting your records also removes any unused credits.</li>
+  <li><strong>Delete what’s on your phone.</strong> Delete documents in the app, or uninstall it.</li>
+</ul>
+<p>Depending on where you live, laws such as India’s Digital Personal Data Protection Act, 2023 or the EU GDPR give you further rights: to access, correct or erase your data, and to complain. Contact us at the address above to use any of them.</p>
+
+<h2>Security</h2>
+<p>Data sent between the app and our server is encrypted with HTTPS. The server and its database are reachable only through the app’s own requests and our Cloudflare account. No system is perfectly secure, but we keep what we store to the minimum above.</p>
+
+<h2>Children</h2>
+<p>ScanCraft is not directed at children under 13, and we do not knowingly collect personal information from children. If you believe a child has used Ultra scan and want their records removed, contact us.</p>
+
+<h2>Where data is processed</h2>
+<p>Google and Cloudflare run servers in many countries, so Ultra scan pages and server records may be processed outside your country. Both providers use industry-standard protections.</p>
+
+<h2>Changes to this policy</h2>
+<p>If we change how ScanCraft handles data, we will update this page and its effective date. Significant changes will also be noted in the app’s release notes.</p>
+
+<h2>Contact</h2>
+<p>appcraftstudio<br><a href="mailto:craftconsole88@gmail.com">craftconsole88@gmail.com</a></p>
+
+<footer>© 2026 appcraftstudio · <a href="../../">Other apps</a></footer>
+</main>
+</body>
+</html>
