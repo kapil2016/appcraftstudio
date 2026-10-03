@@ -6,6 +6,6 @@ The appcraftstudio website, served by GitHub Pages.
 - `scancraft/privacy-policy/`: the ScanCraft (com.craftscans) privacy policy, the URL given to Google Play
 
 Edit the HTML and push to `main`; Pages republishes within a minute.
-- `rozana/`: Rozana (com.rozana) about & pricing page
+- `rozana/`: Rozana (com.hisabrozana) about & pricing page
 - `rozana/privacy-policy/`: the Rozana privacy policy, the URL given to Google Play
 - `rozana/delete-account/`: the account-deletion page Google Play asks for
