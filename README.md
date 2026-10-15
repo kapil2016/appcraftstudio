@@ -9,3 +9,4 @@ Edit the HTML and push to `main`; Pages republishes within a minute.
 - `rozana/`: Rozana Hisab (com.hisabrozana) about & pricing page
 - `rozana/privacy-policy/`: the Rozana Hisab privacy policy, the URL given to Google Play
 - `rozana/delete-account/`: the account-deletion page Google Play asks for
+- `orbit3d/privacy-policy/`: the Orbit 3D (com.appcraftstudio.orbit3d) privacy policy, the URL given to Google Play
