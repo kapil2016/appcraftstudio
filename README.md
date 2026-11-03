@@ -11,3 +11,4 @@ Edit the HTML and push to `main`; Pages republishes within a minute.
 - `rozana/delete-account/`: the account-deletion page Google Play asks for
 - `orbit3d/privacy-policy/`: the Orbit 3D (com.appcraftstudio.orbit3d) privacy policy, the URL given to Google Play
 - `naamjap/privacy-policy/`: the Naam Jap (com.japnaamcounter) privacy policy, the URL given to Google Play
+- `archerpro/privacy-policy/`: the Archer Pro (pro.thearchers) privacy policy, the URL given to Google Play
